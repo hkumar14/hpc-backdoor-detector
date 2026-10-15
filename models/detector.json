@@ -1,0 +1,17 @@
+{
+  "detectors": [
+    "gmm",
+    "knn",
+    "iforest"
+  ],
+  "fusion": "mean",
+  "target_fpr": 0.05,
+  "threshold": 2.971263086381087,
+  "columns": [
+    "cache-references",
+    "cycles",
+    "LLC-loads"
+  ],
+  "n_train": 800,
+  "gmm_components": 4
+}
